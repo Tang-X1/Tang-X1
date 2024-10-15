@@ -10,11 +10,12 @@
     <header>
         <nav>
             <div class="logo">
+                <h1>Void class="txt"</h1>
                 <h1>Void Dashboard</h1>
             </div>
             <ul class="nav-links">
                 <li><a href="#overview">Overview</a></li>
-                <li><a href="#settings">Settings</a></li>
+                <li><a href="#settings">DashBoard</a></li>
                 <li><a href="#support">Support</a></li>
                 <li><a href="#logout">Logout</a></li>
             </ul>
