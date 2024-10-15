@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Void Dashboard</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to CSS -->
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Void Dashboard</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#overview">Overview</a></li>
+                <li><a href="#settings">Settings</a></li>
+                <li><a href="#support">Support</a></li>
+                <li><a href="#logout">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="overview" class="section-container">
+        <h2>Overview</h2>
+        <div class="overview-content">
+            <p>Welcome to the Void Dashboard. Here you can manage your Discord bot, view stats, and customize settings.</p>
+            <div class="stats">
+                <div class="stat-item">
+                    <h3>Total Servers</h3>
+                    <p id="total-servers">0</p>
+                </div>
+                <div class="stat-item">
+                    <h3>Total Users</h3>
+                    <p id="total-users">0</p>
+                </div>
+                <div class="stat-item">
+                    <h3>Active Sessions</h3>
+                    <p id="active-sessions">0</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="section-container">
+        <h2>Bot Features</h2>
+        <p>Manage the bot’s core features and add-ons directly from the dashboard.</p>
+        <div class="feature-list">
+            <div class="feature-item">
+                <h4>Manage Subscriptions</h4>
+                <button onclick="manageSubscriptions()">Manage</button>
+            </div>
+            <div class="feature-item">
+                <h4>View Logs</h4>
+                <button onclick="viewLogs()">View</button>
+            </div>
+            <div class="feature-item">
+                <h4>Add Add-ons</h4>
+                <button onclick="addAddons()">Add</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="settings" class="section-container">
+        <h2>Settings</h2>
+        <p>Customize your bot settings here.</p>
+        <form id="settings-form">
+            <label for="prefix">Bot Command Prefix:</label>
+            <input type="text" id="prefix" name="prefix" placeholder="Enter command prefix">
+            <label for="moderation">Enable Moderation Commands:</label>
+            <input type="checkbox" id="moderation" name="moderation">
+            <button type="submit">Save Settings</button>
+        </form>
+    </section>
+
+    <section id="support" class="section-container">
+        <h2>Support</h2>
+        <p>Need help? Visit our <a href="https://voidworld.org/support">support page</a> or join the <a href="https://discord.gg/7cgD9xmp">support server</a>.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Void. All rights reserved.</p>
+    </footer>
+
+    <script src="app.js"></script> <!-- Link to JS -->
+</body>
+</html>
