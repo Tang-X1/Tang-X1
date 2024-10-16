@@ -1,0 +1,30 @@
+# module Cannot be adapted Arround Service Token
+
+<v> class='VIzz45' var='Korean Voice'</v>
+<v> Class='ID' var='3665357775'</v>
+<v> Fetch Var='UUID_VIzz45_Voice' Module='Voidworld.org/Dashboard</v>
+
+<DOCTYPE HTML>
+<head>
+<p>Class=`Bot' Class='Void'</p>
+<h1 title='Voice Module' Var='Activated`</h1>
+
+<a Data_Access=Granted class='Check' </a>
+<a fetch='Premium' Data='Check' </a>
+<a Data='True' Then='Grant_Token' Fetch='var_3665357775'</a>
+
+<p Class='Login' data='Search_ID_User'</p>
+<a Redirect='voidworld.org/Voice/AI/Module='VIzz45'</a>
+<mar data='access' Var='Login_ID' fetch= True, </mar>
+
+</head>
+
+# Token for any voice Selected eill be Versed to appear as this default Module
+
+<h2 <title>AI_Bot_Name</title><h2>
+<a class='logo' href='src.discord.gg/voidworld/4664334765.png </a>
+<head 
+
+<title>Void</title>
+<m Class='AI_Bot_Name' data='Token_Bot' </m>
+<m Fetch Access_Token_ID Var='Token_Bot' If Data=True, SetVar='Token_Bot'</m>
